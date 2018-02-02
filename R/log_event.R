@@ -76,5 +76,8 @@ as_log_event.log_event <- function(event, ...) event
 #' @export
 as_log_event.default <- function(event, ...)
 {
-  simpleWarning("Unable to convert event to a log event.")
+  #simpleWarning(paste0("Unable to convert event to a log event. ",
+  #                    " class: ", attr(event, "class"),
+  #                    ", typeof: ", typeof(event),
+  #                    ", length: ", length(event)))
 }
