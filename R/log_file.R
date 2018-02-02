@@ -48,7 +48,7 @@ log_file <- function(file_name,
                      .message       = TRUE,
                      .formatter     = format_log_entry,
                      subscriptions  = NULL,
-                     overwrite      = TRUE,
+                     overwrite      = FALSE,
                      log_muffled    = FALSE)
 {
   # capture arguments defining the subscriptions
