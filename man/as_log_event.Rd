@@ -6,6 +6,7 @@
 \alias{as_log_event.simpleWarning}
 \alias{as_log_event.simpleMessage}
 \alias{as_log_event.log_event}
+\alias{as_log_event.expectation_success}
 \alias{as_log_event.default}
 \title{Log event conversion methods.}
 \usage{
@@ -18,6 +19,8 @@ as_log_event(event, ...)
 \method{as_log_event}{simpleMessage}(event, ...)
 
 \method{as_log_event}{log_event}(event, ...)
+
+\method{as_log_event}{expectation_success}(event, ...)
 
 \method{as_log_event}{default}(event, ...)
 }
