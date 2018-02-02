@@ -5,7 +5,7 @@
 \title{Activate a log file}
 \usage{
 log_file(file_name, ..., .warning = TRUE, .error = TRUE, .message = TRUE,
-  .formatter = format_log_entry, subscriptions = NULL, overwrite = TRUE,
+  .formatter = format_log_entry, subscriptions = NULL, overwrite = FALSE,
   log_muffled = FALSE)
 }
 \arguments{

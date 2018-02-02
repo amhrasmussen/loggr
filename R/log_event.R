@@ -73,6 +73,9 @@ as_log_event.simpleMessage <- function(event, ...) {
 as_log_event.log_event <- function(event, ...) event
 
 #' @rdname as_log_event
+as_log_event.expectation_success <- function(event, ...) {}
+
+#' @rdname as_log_event
 #' @export
 as_log_event.default <- function(event, ...)
 {
